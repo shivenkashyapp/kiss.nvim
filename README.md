@@ -36,10 +36,8 @@ matches with (run from within Neovim):
 - [Lazy](https://lazy.folke.io/) (package manager)
 - [Gruvbox](https://github.com/ellisonleao/gruvbox.nvim) (colorscheme)
 - [cmp](https://github.com/hrsh7th/nvim-cmp) (LSP)
-- [Mason](https://github.com/williamboman/mason.nvim)
 - [Telescope](https://github.com/nvim-telescope/telescope.nvim) (fuzzy finder)
-
-
+  
 
 # Python
 In most modern Linux distributions, `pip` can no longer manage system-wide libraries, and it is advised to either use a virtual environment or download 
@@ -57,7 +55,7 @@ please read through plugin settings for that LSP.
   
   
 # Keybinds
-- `<Ctrl-e>` to open the fuzzy finder.
+- `<Ctrl-e>` to open the fuzzy finder.  
 That's it, lol.
 
 
@@ -86,8 +84,8 @@ immediately after installation, while also having a super-fast startup.
 This repo is *also* for people who don't want to spend massively unreasonable amounts of time creating a configuration from
 scratch, like I did here. 
 
-Well, on a second thought, I'll probably write a short [guide](https://shivenkashyapp.github.io) on creating this from scratch.
-On a second thought, that would defeat the purpose of this configuration existing ...
+I'll probably write a short [guide](https://shivenkashyapp.github.io) on creating this from scratch.
+But, on a second thought, that would defeat the purpose of this configuration existing. Meh.
 
 
 # License
