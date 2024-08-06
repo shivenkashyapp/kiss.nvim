@@ -33,17 +33,17 @@ please read through plugin settings for that LSP.
 
 
 # Directory structure
-├── init.lua
-└── lua
-   └── custom
-       ├── init.lua
-       ├── lazy
-       │   ├── gruvbox.lua
-       │   ├── init.lua
-       │   ├── lsp.lua
-       │   └── telescope.lua
-       └── lazy_init.lua
-
+├── init.lua \\
+└── lua \\
+   └── custom \\
+       ├── init.lua \\
+       ├── lazy \\
+       │   ├── gruvbox.lua \\
+       │   ├── init.lua \\
+       │   ├── lsp.lua \\
+       │   └── telescope.lua \\
+       └── lazy_init.lua \\
+\\
 
 # Plugins used
 - [Lazy](https://lazy.folke.io/) (package manager)
