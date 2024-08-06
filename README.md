@@ -33,6 +33,7 @@ please read through plugin settings for that LSP.
 
 
 # Directory structure
+```
 ├── init.lua  
 └── lua  
    └── custom  
@@ -43,7 +44,7 @@ please read through plugin settings for that LSP.
        │   ├── lsp.lua  
        │   └── telescope.lua  
        └── lazy_init.lua  
-  
+```
 
   
 # Pre-installed plugins
