@@ -3,17 +3,17 @@ A minimal, bare-bones Neovim configuration based on the [KISS principle.](https:
 To read more about the reason this repository exists, read [here](#why).
 
 # Installation
-```
+```bash
 $ git clone https://github.com/shivenkashyapp/kiss.nvim "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
 ```
 
 This should work across most Linux flavors. Just in case, verify if the value of:
-```
+```bash
 $ echo "${XDG_CONFIG_HOME:-$HOME/.config}/nvim"
 ```
 
 matches with (run from within Neovim):
-```
+```lua
 :echo stdpath("config")
 ```
 
@@ -22,7 +22,7 @@ In most modern Linux distributions, `pip` can no longer manage system-wide libra
 distro-specific packages.
 
 You can pass the path to a Python binary in a virtual environment, to the `pythonPath` variable under `pyright` setup in `lua/custom/lazy/lsp.lua`.
-```
+```lua
 python = {
     pythonPath = "/home/shiven/Venv/bin/python"
 }
@@ -33,19 +33,20 @@ please read through plugin settings for that LSP.
 
 
 # Directory structure
-├── init.lua \\
-└── lua \\
-   └── custom \\
-       ├── init.lua \\
-       ├── lazy \\
-       │   ├── gruvbox.lua \\
-       │   ├── init.lua \\
-       │   ├── lsp.lua \\
-       │   └── telescope.lua \\
-       └── lazy_init.lua \\
-\\
+├── init.lua  
+└── lua  
+   └── custom  
+       ├── init.lua  
+       ├── lazy  
+       │   ├── gruvbox.lua  
+       │   ├── init.lua  
+       │   ├── lsp.lua  
+       │   └── telescope.lua  
+       └── lazy_init.lua  
+  
 
-# Plugins used
+  
+# Pre-installed plugins
 - [Lazy](https://lazy.folke.io/) (package manager)
 - [Gruvbox](https://github.com/ellisonleao/gruvbox.nvim) (colorscheme)
 - [cmp](https://github.com/hrsh7th/nvim-cmp) (LSP)
