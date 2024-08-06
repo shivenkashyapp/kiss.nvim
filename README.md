@@ -17,21 +17,6 @@ matches with (run from within Neovim):
 :echo stdpath("config")
 ```
 
-# Python
-In most modern Linux distributions, `pip` can no longer manage system-wide libraries, and it is advised to either use a virtual environment or download 
-distro-specific packages.
-
-You can pass the path to a Python binary in a virtual environment, to the `pythonPath` variable under `pyright` setup in `lua/custom/lazy/lsp.lua`.
-```lua
-python = {
-    pythonPath = "/home/shiven/Venv/bin/python"
-}
-```
-
-This is just an example for Pyright. If you opt to choose a different LSP for Python,
-please read through plugin settings for that LSP.
-
-
 # Directory structure
 ```
 ├── init.lua  
@@ -53,6 +38,27 @@ please read through plugin settings for that LSP.
 - [cmp](https://github.com/hrsh7th/nvim-cmp) (LSP)
 - [Mason](https://github.com/williamboman/mason.nvim)
 - [Telescope](https://github.com/nvim-telescope/telescope.nvim) (fuzzy finder)
+
+
+
+# Python
+In most modern Linux distributions, `pip` can no longer manage system-wide libraries, and it is advised to either use a virtual environment or download 
+distro-specific packages.
+
+You can pass the path to a Python binary in a virtual environment, to the `pythonPath` variable under `pyright` setup in `lua/custom/lazy/lsp.lua`.
+```lua
+python = {
+    pythonPath = "/home/shiven/Venv/bin/python"
+}
+```
+
+This is just an example for Pyright. If you opt to choose a different LSP for Python,
+please read through plugin settings for that LSP.
+  
+  
+# Keybinds
+- `<Ctrl-e>` to open the fuzzy finder.
+That's it, lol.
 
 
 # Extending / Customizing
